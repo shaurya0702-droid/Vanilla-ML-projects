@@ -1,0 +1,81 @@
+💻 Descriptive Question: Binary SVM Classification from Scratch using NumPy, Pandas, Matplotlib, and Seaborn
+You are required to implement a Binary Support Vector Machine (SVM) classifier from scratch using only NumPy, Pandas, Matplotlib, and Seaborn (no machine learning libraries like scikit-learn).
+The aim is to understand and demonstrate how SVM works mathematically and programmatically, including data import, preprocessing, training, evaluation, and visualization.
+
+1. Dataset Import and EDA
+Select a simple real-world tabular dataset with a binary target (e.g., bank marketing, loan approval, or create a synthetic 2D dataset).
+
+Load the dataset using Pandas.
+
+Perform basic EDA:
+
+Display dataset shape, summary statistics, and check for missing values.
+
+Visualize feature and target distributions (histograms, scatterplots, pairplots).
+
+Explore relationships between key features and the target.
+
+Discuss observations briefly.
+
+2. Data Preparation
+Encode categorical features if needed.
+
+Select two numerical features for visualization and simplicity.
+
+Split the dataset into training and testing sets.
+
+Apply feature scaling (standardization) to all numerical features.
+
+
+
+
+
+3. Manual SVM Implementation
+Implement a hard-margin linear SVM for binary classification using NumPy:
+
+Write the optimization loop to find model weights (w) and bias (b).
+
+Define the SVM decision function and prediction logic.
+
+Track and print the loss (hinge loss or simple misclassification error) during training.
+
+4. Model Training, Prediction & Evaluation
+Train your SVM on the training data.
+
+Use the trained model to predict labels on the test set.
+
+Evaluate performance using accuracy (percentage correct) and visual confusion matrix.
+
+Report learned weights, bias, and number of support vectors (if possible).
+
+
+
+
+
+5. Visualization
+Plot the data points, SVM decision boundary, and support vectors in 2D (Matplotlib/Seaborn).
+
+Visualize misclassified points.
+
+Plot the loss curve (error vs iteration) to show how your model learns.
+
+
+
+
+
+
+6. Implementation Platform
+Complete the notebook in Google Colab.
+
+Use Markdown cells to clearly explain math, logic, and each code step.
+
+7. Expected Understanding
+By the end of this project, you should:
+
+Understand the geometric and mathematical foundation of SVM classification.
+
+See how SVM separates classes using linear algebra and optimization.
+
+Appreciate why SVM is different from linear regression and other classifiers.
+
+Gain practical experience with full ML workflow: data analysis, preprocessing, modeling, evaluation, and visualization.
