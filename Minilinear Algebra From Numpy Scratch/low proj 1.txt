@@ -1,0 +1,67 @@
+Project 1: Mini Linear Algebra Library
+Goal: Create your own lightweight Linear Algebra library using NumPy. The purpose of this
+project is to implement fundamental mathematical operations used in machine learning
+models by coding them manually with NumPy arrays.
+ What to do: - Implement key matrix and vector operations manually such as matrix
+multiplication, transpose, determinant, inverse, and rank. - Write helper functions to
+calculate projections, orthogonal components, and vector norms. - Test your library with
+random NumPy arrays of various sizes. - Visualize how 2D vectors change when
+multiplied by transformation matrices (e.g., rotations, scaling).
+Learning Outcome: You will gain an operational understanding of how linear algebra
+underpins model training, feature transformations, and optimization in ML. 
+
+
+
+Project 2: 2D Vector Transformation Visualizer  
+Goal: Build a visual tool that shows how matrices transform vectors in 2D space. This 
+project will give you geometric intuition for matrix operations like scaling, rotation, 
+shearing, and reflection. 
+What to do: - Use NumPy to generate a grid of 2D points. - Define transformation 
+matrices for rotation, scaling, shearing, and reflection. - Apply these matrices to your grid 
+points using matrix multiplication. - Plot the original and transformed vectors or grids 
+using matplotlib. - Compute determinants and dot products to analyse how 
+transformations area, orientation, and orthogonality. 
+Learning Outcome: You will develop a strong visual understanding of what matrix 
+operations *do* geometrically essential intuition for neural networks, computer graphics, 
+and any model that manipulates vector spaces. 
+
+
+
+Project 3: Principal Component Analysis (PCA) from Scratch 
+Goal: Implement PCA from the ground up using NumPy to understand how eigenvalues 
+and eigenvectors enable dimensionality reduction and feature extraction.  
+What to do: - Generate a 2D dataset with correlated features using NumPy random 
+functions. - Standardize the dataset by subtracting the mean and dividing by the standard 
+deviation. - Compute the covariance matrix manually. - Find the eigenvalues and 
+eigenvectors of the covariance matrix. - Sort and use the eigenvectors to project the 
+dataset onto new principal component axes. - Visualize the dataset before and after 
+dimensionality reduction.  
+Learning Outcome: This project will clarify how PCA compresses data while preserving 
+maximum variance, helping you understand one of the most widely used techniques in 
+machine learning and data preprocessing.  
+
+
+
+
+
+
+
+
+
+
+
+THEORY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
