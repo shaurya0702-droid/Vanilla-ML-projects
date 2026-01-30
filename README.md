@@ -113,6 +113,18 @@ This repository is designed to:
 
 ---
 
+### K-Nearest Neighbors (From Scratch)
+**Folder:** `KNN-From-Numpy-Scratch`
+
+- Distance-based (instance-based) learning
+- Euclidean distance computation from scratch
+- Majority voting for classification
+- Effect of **K** on bias–variance tradeoff
+- Importance of **feature scaling** for distance metrics
+- Multi-class classification on the Iris dataset
+
+---
+
 ### Clustering Algorithms
 **Folder:** `Clustering`
 
